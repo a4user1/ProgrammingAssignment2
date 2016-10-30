@@ -1,7 +1,5 @@
-## To caching the inverse of a matrix rather than compute it repeatedly
-## is a way to eficiently allocate time.
-
-## This function creates a special "matrix" object that can cache its inverse.
+## In order to cache the inverse of a matrix rather than compute it repeatedly
+## we can use a function called 'makeCacheMatrix', that creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
